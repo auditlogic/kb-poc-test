@@ -1,10 +1,10 @@
 # Meta Data for SEO
 
 ## Homepage
-title = "Doks"
+title = "Auditmation"
 titleSeparator = "-"
-titleAddition = "Modern Documentation Theme"
-description = "Doks is a Hugo theme for building secure, fast, and SEO-ready documentation websites, which you can easily update and customize."
+titleAddition = "Additional Title Goes Here"
+description = "More Additional Text goes here"
 
 ## Documentation
 # docsVersion = "0.3"
@@ -107,8 +107,11 @@ lastMod = false
   navbarSticky = true
   toTopButton = false
   scrollSpy = false # experimental; needs Bootstrap >= 5.2.0-beta1
+  visibleHeader = false
+  visibleFooter = false
 
 [menu]
   [menu.section]
     auto = true
     collapsibleSidebar = true
+    visibleSideBar = false
